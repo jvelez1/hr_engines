@@ -1,3 +1,15 @@
+PATH
+  remote: employee
+  specs:
+    employee (0.1.0)
+      rails (~> 6.1.3, >= 6.1.3.2)
+
+PATH
+  remote: payroll
+  specs:
+    payroll (0.1.0)
+      rails (~> 6.1.3, >= 6.1.3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -152,8 +164,10 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
+  employee!
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  payroll!
   pg (~> 1.2, >= 1.2.3)
   puma (~> 5.0)
   rails (~> 6.1.3, >= 6.1.3.2)
